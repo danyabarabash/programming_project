@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBird", "FlappyBird\FlappyBird.csproj", "{80A32571-A520-4988-A83D-0F4C1A4C2FE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyBirdTestProject", "FlappyBirdTestProject\FlappyBirdTestProject.csproj", "{E0FD338C-1ED9-4404-B013-F7E25EE18626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{80A32571-A520-4988-A83D-0F4C1A4C2FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80A32571-A520-4988-A83D-0F4C1A4C2FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80A32571-A520-4988-A83D-0F4C1A4C2FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FD338C-1ED9-4404-B013-F7E25EE18626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FD338C-1ED9-4404-B013-F7E25EE18626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FD338C-1ED9-4404-B013-F7E25EE18626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FD338C-1ED9-4404-B013-F7E25EE18626}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A04C6641-9178-49FE-A385-603DACDD2B56}
 	EndGlobalSection
 EndGlobal
