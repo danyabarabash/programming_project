@@ -42,6 +42,7 @@ namespace FlappyBird
             {
                 bird.isAlive = false;
                 timer1.Stop();
+                MessageBox.Show("You lose! \t Score: "+ +bird.score, "Game over!");
                 Init();
             }
 
@@ -49,6 +50,7 @@ namespace FlappyBird
             {
                 bird.isAlive = false;
                 timer1.Stop();
+                MessageBox.Show("You lose! \t Score: " + +bird.score, "Game over!");
                 Init();
             }
 
